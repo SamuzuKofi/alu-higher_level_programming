@@ -4,8 +4,8 @@
 def divisible_by_2(my_list=[]):
     new_list = []
     for i in my_list:
-        if i % 2 == o:
-            new_list = new_list.append("True")
+        if i % 2 == 0:
+            print("{:d} is divisible by 2".format(i)
         else:
-            new_list = new_list.append("False")
+            print("{:d} is not divisible by 2".format(i)
     return new_list
